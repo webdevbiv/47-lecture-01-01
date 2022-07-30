@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div>test</div>
-      <Button />
-      <ButtonAnother />
+      <Button btnText='new button' />
+      {/* <ButtonAnother /> */}
     </div>
   );
 }

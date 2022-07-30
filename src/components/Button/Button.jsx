@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 
-const Button = () => {
+const Button = ({btnText, disabled}) => {
+
     const btnName = "hey"
-    return <button>{ btnName }</button>
+    return <button disabled={disabled}>{ btnText }</button>
 };
 
 export const ButtonAnother = () => {
