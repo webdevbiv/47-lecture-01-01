@@ -6,7 +6,13 @@ function App() {
   return (
     <div className="App">
       <div>test</div>
-      <Button btnText='new button' />
+      <Button
+        btnText='new button'
+        disabled={false}
+        loader
+      />
+      <Button btnText='click me' />
+      <Button btnText='press me' />
       {/* <ButtonAnother /> */}
     </div>
   );
